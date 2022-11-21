@@ -23,12 +23,3 @@ let countCharacters = document.querySelector(".count-characters");
 countCharacters.addEventListener("click", function () {
   alert(inputCharacters.length);
 });
-
-//6
-let lampOn = (document.querySelector(".lamp").src =
-  "https://github.com/gabrieldarezzo/helpjs-ravi/blob/master/images/lampada-on.jpg?raw=true");
-
-// lampOn.addEventListener("click", function () {
-//   lampOn.src =
-//     "";
-// });
