@@ -175,12 +175,12 @@ console.log(carro); // undefined
   const ano = 2018;
 }
 console.log(carro); // Carro
-console.log(ano); // erro ano is not defined
+//console.log(ano); // erro ano is not defined
 
 //Const - mantém o escopo no bloco, impede a redeclaração e impede a modificação do valor da variável, evitando bugs no código.
 
 const mes = "Dezembro";
-mes = "Janeiro"; // erro, tentou modificar o valor
+//mes = "Janeiro"; // erro, tentou modificar o valor
 
 const data = {
   dia: 28,
@@ -189,7 +189,7 @@ const data = {
 };
 
 data.dia = 29; // Funciona
-data = "Janeiro"; // erro
+//data = "Janeiro"; // erro
 
 //Let - mantém o escopo no bloco, impede a redeclaração, mas permite a modificação do valor da variável.
 //geralmente vamos utilizar o const.
@@ -206,7 +206,7 @@ data = "Janeiro"; // erro
 //nao foi colocado o nome da variavel no console.
 
 // Como corrigir o erro abaixo?
-let dois = 2;
+const dois = 2;
 
 function somarDois(x) {
   return x + dois;
